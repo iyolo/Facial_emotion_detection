@@ -1,0 +1,17 @@
+# https://pypi.tuna.tsinghua.edu.cn/simple/
+accelerate==0.18.0
+asposestorage==1.0.2
+einops==0.6.1
+ml_collections==0.1.1
+# pip install mmcv==2.0.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.0/index.html
+mmcv==2.0.0
+mmcv==2.0.0
+mmsegmentation
+numpy==1.24.3
+pandas==2.0.1
+Pillow==9.5.0
+setuptools==66.0.0
+timm==0.6.13
+torch==2.0.0
+torchmetrics==0.11.4
+tqdm==4.65.0

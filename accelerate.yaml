@@ -1,0 +1,31 @@
+# 计算环境，是本地计算机
+compute_environment: LOCAL_MACHINE
+# 分布式类型 NO
+distributed_type: 'NO'
+# 不使用bf16进行下采样
+downcast_bf16: 'no'
+# 使用的GPU ID，这里设置为0，表示使用第一个GPU
+gpu_ids: '0'
+# 机器等级，这里设置为0，主机
+machine_rank: 0
+# 主要训练函数
+main_training_function: main
+# 混合精度，表示使用半精度浮点数
+mixed_precision: fp16
+# 使用的机器数量
+num_machines: 1
+# 使用的进程数量
+num_processes: 1
+# Rendezvous后端
+rdzv_backend: static
+# 在同一网络上运行
+same_network: true
+# PU环境，这里设置为空列表（[]），表示不使用TPU
+tpu_env: []
+# 不使用TPU集群
+tpu_use_cluster: false
+# 不使用sudo权限运行TPU
+tpu_use_sudo: false
+# 不使用CPU
+use_cpu: false
+

@@ -1,0 +1,1 @@
+accelerate launch --config_file accelerate.yaml main.py
